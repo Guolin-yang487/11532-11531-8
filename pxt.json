@@ -1,0 +1,21 @@
+{
+    "name": "11532 11531 8",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "mbitbot": "github:icshopmgr/mbitbot#f0e19657249e6b04b6e954627416bb6debcf4624"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
