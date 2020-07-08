@@ -34,7 +34,9 @@ basic.forever(function () {
     basic.showNumber(line)
     if (line == 1) {
     	
-    } else if (false) {
+    } else if (line == 2) {
+    	
+    } else if (line == 3) {
     	
     } else {
     	
