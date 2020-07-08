@@ -2,6 +2,18 @@ let line = 0
 function turnLeft () {
     mbitbot.move_motor_pin(mbitbot.MPin.Mpin3, 30)
     mbitbot.move_motor_pin(mbitbot.MPin.Mpin4, 0)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin7, 0)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin8, 0)
+}
+function backward () {
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin3, 0)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin4, 30)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin7, 0)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin8, 30)
+}
+function turnRight () {
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin3, 0)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin4, 0)
     mbitbot.move_motor_pin(mbitbot.MPin.Mpin7, 30)
     mbitbot.move_motor_pin(mbitbot.MPin.Mpin8, 0)
 }
