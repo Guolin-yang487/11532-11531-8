@@ -5,6 +5,12 @@ function turnLeft () {
     mbitbot.move_motor_pin(mbitbot.MPin.Mpin7, 0)
     mbitbot.move_motor_pin(mbitbot.MPin.Mpin8, 0)
 }
+function stop () {
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin3, 0)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin4, 0)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin7, 0)
+    mbitbot.move_motor_pin(mbitbot.MPin.Mpin8, 0)
+}
 function backward () {
     mbitbot.move_motor_pin(mbitbot.MPin.Mpin3, 0)
     mbitbot.move_motor_pin(mbitbot.MPin.Mpin4, 30)
